@@ -1,0 +1,62 @@
+/* register.css */
+
+.register {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Gradient background */
+  }
+  
+  .rContainer {
+    width: 400px; /* Fixed width for the container */
+    padding: 30px;
+    background: white; /* White background for the form */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Enhanced shadow for depth */
+    display: flex;
+    flex-direction: column; /* Column layout for inputs */
+    gap: 15px; /* Space between inputs */
+  }
+  
+  .rInput {
+    width: 100%; /* Full width for inputs */
+    padding: 12px; /* Padding inside inputs */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 5px; /* Rounded corners for inputs */
+    font-size: 16px; /* Font size */
+    transition: border-color 0.3s; /* Smooth transition for border */
+  }
+  
+  .rInput:focus {
+    border-color: #6a11cb; /* Highlight border on focus */
+    outline: none; /* Remove default outline */
+  }
+  
+  .rButton {
+    width: 100%; /* Full width for button */
+    padding: 12px; /* Padding inside button */
+    background-color: #6a11cb; /* Primary color for button */
+    color: white; /* Text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 18px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for background */
+  }
+  
+  .rButton:hover {
+    background-color: #2575fc; /* Darker shade on hover */
+  }
+  
+  .rButton:disabled {
+    background-color: #cccccc; /* Disabled button color */
+    cursor: not-allowed; /* Not allowed cursor */
+  }
+  
+  span {
+    color: #e74c3c; /* Error message color */
+    font-size: 14px; /* Error message font size */
+    text-align: center; /* Center error message */
+  }
+  
